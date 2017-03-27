@@ -32,6 +32,7 @@ private  user:Iuser ={
   constructor(public navCtrl: NavController, public navParams: NavParams, public alertCtrl:AlertController) {
 
   }
+  // código
   ionViewDidLoad() {
     console.log('ionViewDidLoad LoginPage');
     this.userMock ={username:'jomenco',password:'123'};
